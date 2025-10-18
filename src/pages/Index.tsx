@@ -169,7 +169,7 @@ const Index = () => {
         <div className="grid grid-cols-1 lg:grid-cols-[60%_40%] gap-4">
           {/* Left Column - Unit Catalog */}
           <div className="space-y-2">
-            <h2 className="text-sm font-bold uppercase tracking-wide text-muted-foreground mb-3 px-2">
+            <h2 className="text-sm font-bold uppercase tracking-wide text-muted-foreground mb-2 px-2">
               Available Units
             </h2>
             <UnitCatalog onAddUnit={handleAddUnit} />

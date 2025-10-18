@@ -45,7 +45,7 @@ export const UnitAccordionItem = ({
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="mb-2 border border-border rounded overflow-hidden shadow-sm">
+    <div className="border border-border rounded overflow-hidden shadow-sm">
       {/* Header */}
       <button
         onClick={() => setIsExpanded(!isExpanded)}

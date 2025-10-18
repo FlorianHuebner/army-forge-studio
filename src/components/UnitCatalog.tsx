@@ -69,7 +69,7 @@ const mockUnits = [
 
 export const UnitCatalog = ({ onAddUnit }: UnitCatalogProps) => {
   return (
-    <div className="space-y-0">
+    <div className="space-y-2">
       {mockUnits.map((unit) => (
         <UnitAccordionItem
           key={unit.id}
